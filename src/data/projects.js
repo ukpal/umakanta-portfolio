@@ -1,0 +1,86 @@
+
+export const projects = [
+  {
+    id: "travel-platform",
+    number: "01",
+    name: "Tour & Travel Booking Platform",
+    category: "PROFESSIONAL EXPERIENCE",
+    role: "Head of the Core Development Team",
+    description:
+      "A travel booking platform bringing together travel products and third-party provider integrations. The project involved coordinating core development and working with the complexities of travel APIs and booking workflows.",
+    capabilities: [
+      "Travel provider integrations",
+      "Search and availability workflows",
+      "Booking lifecycle orchestration",
+      "Third-party API integration",
+    ],
+    technologies: [
+      "Node.js",
+      "REST APIs",
+      "Travel APIs",
+      "Backend Engineering",
+    ],
+    providers: [
+      "Travelport",
+      "Amadeus",
+      "Hotelbeds",
+      "Musement",
+      "Direct Ferries",
+    ],
+    featured: true,
+    visual: "travel",
+    link: null,
+  },
+  {
+    id: "api-saas",
+    number: "02",
+    name: "API SaaS Platform",
+    category: "INDEPENDENT PROJECT",
+    role: "Backend Engineering",
+    description:
+      "A subscription-based API platform built around API-key authentication, access control, and usage limits, with a relational data model for users, roles, permissions, and subscriptions.",
+    capabilities: [
+      "API-key management",
+      "JWT authentication",
+      "Role-based access control",
+      "Subscription and usage limits",
+    ],
+    technologies: [
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "PostgreSQL",
+      "Sequelize",
+    ],
+    providers: [],
+    featured: false,
+    visual: "saas",
+    link: null,
+  },
+  {
+    id: "bus-booking",
+    number: "03",
+    name: "Bus Booking System",
+    category: "INDEPENDENT PROJECT",
+    role: "Backend Engineering",
+    description:
+      "A bus booking application concept with customer and driver workflows, including OTP-based authentication, seat selection, reservations, ticket generation, and QR-code verification.",
+    capabilities: [
+      "OTP authentication",
+      "Seat reservation workflows",
+      "Ticket generation",
+      "QR-code verification",
+    ],
+    technologies: [
+      "NestJS",
+      "JavaScript / TypeScript",
+      "Sequelize",
+      "PostgreSQL",
+      "Redis",
+    ],
+    providers: [],
+    featured: false,
+    visual: "bus",
+    link: null,
+  },
+];
