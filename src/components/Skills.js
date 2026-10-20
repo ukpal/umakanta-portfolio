@@ -51,6 +51,7 @@ const categories = [
     skills: [
       { name: "React", detail: "UI development" },
       { name: "Next.js", detail: "React framework" },
+      { name: "React Native", detail: "Cross platform framework" },
       { name: "Bootstrap", detail: "Responsive layouts" },
       { name: "HTML", detail: "Web structure" },
       { name: "CSS", detail: "Styling and layouts" },
@@ -64,8 +65,11 @@ const categories = [
     description: "Running applications in containerized and cloud environments.",
     skills: [
       { name: "Docker", detail: "Containerization" },
+      { name: "RabbitMQ", detail: "Message broker" },
       { name: "AWS EC2", detail: "Cloud compute" },
       { name: "AWS S3", detail: "Object storage" },
+      { name: "AWS RDS", detail: "Managed relational database" },
+      { name: "AWS Cloudwatch", detail: "Resource Monitoring" },
       { name: "Git", detail: "Version control" },
       { name: "Linux", detail: "Server environment" },
       { name: "PM2", detail: "Node.js process management" },
